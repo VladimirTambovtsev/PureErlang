@@ -7,7 +7,7 @@
 	socket_server:start_server().
 </pre>
 
-	In open connection run new erl process:
+In open connection run new erl process:
 <pre>
 1>	{ok, Socket} = gen_tcp:connect({127,0,0,1}, 9000, [binary, {active, true}]).
 {ok,#Port<0.5>}
