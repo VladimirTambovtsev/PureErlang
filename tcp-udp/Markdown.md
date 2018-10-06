@@ -6,7 +6,7 @@ Example in two different processes:
 1. 
 <pre>
 	{ok, LSocket} = gen_tcp:listen(9000, [binary, {active, true}]).
-</pre>>
+</pre>
 
 2.
 <pre>
